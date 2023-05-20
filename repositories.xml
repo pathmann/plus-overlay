@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE repositories SYSTEM "http://www.gentoo.org/dtd/repositories.dtd">
+<repositories xmlns="" version="1.0">
+  <repo quality="experimental" status="unofficial">
+    <name>plus</name>
+    <description lang="en">Personal Gentoo overlay</description>
+    <homepage>https://github.com/pathmann/plus-overlay</homepage>
+    <owner type="person">
+      <email>thomas.pathmann@gmail.com</email>
+      <name>Thomas Pathmann</name>
+    </owner>
+    <source type="git">https://github.com/pathmann/plus-overlay.git</source>
+    <source type="git">git+ssh://git@github.com/pathmann/plus-overlay.git</source>
+    <feed>https://github.com/pathmann/plus-overlay/commits/master.atom</feed>
+  </repo>
+</repositories>
