@@ -11,6 +11,6 @@
     </owner>
     <source type="git">https://github.com/pathmann/plus-overlay.git</source>
     <source type="git">git+ssh://git@github.com/pathmann/plus-overlay.git</source>
-    <feed>https://github.com/pathmann/plus-overlay/commits/master.atom</feed>
+    <feed>https://github.com/pathmann/plus-overlay/commits/main.atom</feed>
   </repo>
 </repositories>
