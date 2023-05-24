@@ -12,11 +12,13 @@ SRC_URI="https://gitlab.linphone.org/BC/public/${PN}/-/archive/${PV}/${P}.tar.gz
 LICENSE="GPL-3"
 KEYWORDS="~amd64 ~x86"
 SLOT="0"
+IUSE="qrcode"
 RESTRICT="test" # needs sdk
 
 RDEPEND="dev-libs/belcard
 	dev-libs/jsoncpp:0=
-	dev-libs/liblinphone
+	qrcode? ( dev-libs/liblinphone[qrcode] )
+	!qrcode? ( dev-libs/liblinphone )
 	dev-qt/qtconcurrent:5
 	dev-qt/qtcore:5
 	dev-qt/qtdbus:5
@@ -77,6 +79,7 @@ src_configure() {
 		-DENABLE_APP_PACKAGING=NO
 		-DENABLE_BUILD_VERBOSE=YES
 		-DENABLE_UPDATE_CHECK=NO
+		-DENABLE_QRCODE="$(usex qrcode)"
 	)
 	cmake_src_configure
 }

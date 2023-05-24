@@ -14,7 +14,7 @@ SRC_URI="https://gitlab.linphone.org/BC/public/${PN}/-/archive/${PV}/${P}.tar.gz
 LICENSE="GPL-3"
 KEYWORDS="~amd64 ~x86"
 SLOT="0"
-IUSE="debug doc ldap libnotify static-libs test tools"
+IUSE="debug doc ldap libnotify static-libs test tools qrcode"
 REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 RESTRICT="!test? ( test )"
 
@@ -35,6 +35,7 @@ RDEPEND="dev-cpp/belr
 	virtual/libiconv
 	virtual/libintl
 	virtual/libudev
+  qrcode? ( media-libs/zxing-cpp )
 	tools? ( ${PYTHON_DEPS}
 		dev-python/pystache[${PYTHON_USEDEP}]
 		dev-python/six[${PYTHON_USEDEP}] )"
@@ -43,7 +44,6 @@ BDEPEND="${PYTHON_DEPS}
 	app-doc/doxygen[dot]
 	dev-python/pystache[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
-	media-libs/zxing-cpp
 	dev-vcs/git
 	virtual/pkgconfig
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )"
@@ -77,6 +77,7 @@ src_configure() {
 		-DENABLE_STATIC="$(usex static-libs)"
 		-DENABLE_TOOLS="$(usex tools)"
 		-DENABLE_UNIT_TESTS="$(usex test)"
+		-DENABLE_QRCODE="$(usex qrcode)"
 		-DENABLE_STRICT=NO # otherwise compilation will fail due to -Werror=unused-function
 	)
 
