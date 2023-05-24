@@ -1,0 +1,13 @@
+--- a/src/CMakeLists.txt	2023-05-24 11:21:22.881953268 +0200
++++ b/src/CMakeLists.txt	2023-05-24 11:21:51.910934887 +0200
+@@ -31,10 +31,6 @@
+ 	mediastreamer
+ )
+ 
+-if (ENABLE_FLEXIAPI)
+-	list(APPEND LINK_LIBS jsoncpp_static)
+-endif()
+-
+ #APPLE_LIBS is mandatory for apple compilation
+ if(APPLE)
+ 	list(APPEND APPLE_LIBS "-framework CFNetwork -framework Foundation -framework AVFoundation -framework SystemConfiguration -framework CoreLocation")
