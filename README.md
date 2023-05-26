@@ -19,5 +19,6 @@ PLuS' ebuild repository
   * net-libs/[bctoolbox](https://gitlab.linphone.org/BC/public/bctoolbox)
   * net-libs/[bzrtp](https://gitlab.linphone.org/BC/public/bzrtp)
   * net-libs/[ortp](https://gitlab.linphone.org/BC/public/ortp)
+* x11-terms/[guake](https://github.com/Guake/guake)
   
 
