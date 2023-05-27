@@ -21,5 +21,6 @@ PLuS' ebuild repository
   * net-libs/[ortp](https://gitlab.linphone.org/BC/public/ortp)
 * x11-terms/[guake](https://github.com/Guake/guake)
 * app-editors/[texworks](https://github.com/TeXworks/texworks)
+* x11-misc/[synergy](https://github.com/symless/synergy-core)
   
 
