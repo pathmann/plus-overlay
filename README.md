@@ -22,5 +22,9 @@ PLuS' ebuild repository
 * x11-terms/[guake](https://github.com/Guake/guake)
 * app-editors/[texworks](https://github.com/TeXworks/texworks)
 * x11-misc/[synergy](https://github.com/symless/synergy-core)
+* app-misc/[bavarder](https://github.com/Bavarder/Bavarder)
+  * dev-python/[baichat-py](https://github.com/Bavarder/baichat-py)
+  * dev-python/[googlebardpy](https://github.com/Bavarder/googlebardpy)
+  * dev-python/[openai](https://github.com/openai/openai-python)
   
 
