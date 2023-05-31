@@ -14,7 +14,7 @@
     a single metadata.xml file is not.
   </longdescription>
   <upstream>
-  	<remote-id type="github">pathmann/plus-overlay</remote-id>
+    <remote-id type="github">pathmann/plus-overlay</remote-id>
   </upstream>
   <use>
     <flag name="aspell">Uses <pkg>app-text/aspell</pkg> for spell checking.
