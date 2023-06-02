@@ -9,14 +9,14 @@ inherit distutils-r1
 
 DESCRIPTION="Google Bard Python API"
 HOMEPAGE="https://github.com/Bavarder/googlebardpy"
-SRC_URI="https://github.com/Bavarder/${PN}/archive/refs/tags/v${PV}.tar.gz"
+SRC_URI="https://github.com/Bavarder/${PN}/archive/refs/tags/v${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~amd64"
 
 RDEPEND="
-    $(python_gen_cond_dep '
-        >=dev-python/requests-2.29.0[${PYTHON_USEDEP}]
-    ')
+	$(python_gen_cond_dep '
+		>=dev-python/requests-2.29.0[${PYTHON_USEDEP}]
+	')
 "
