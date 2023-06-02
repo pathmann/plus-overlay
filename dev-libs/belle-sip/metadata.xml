@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="person">
+    <email>thomas.pathmann@gmail.com</email>
+    <name>Thomas Pathmann</name>
+  </maintainer>
+  <longdescription>
+    Belle-sip is a modern library implementing SIP (RFC3261) transport,
+    transaction and dialog layers. It is written in C, with an object
+    oriented API. It also comprises a simple HTTP/HTTPS client implementation.
+  </longdescription>
+  <upstream>
+    <remote-id type="github">BelledonneCommunications/belle-sip</remote-id>
+  </upstream>
+</pkgmetadata>
