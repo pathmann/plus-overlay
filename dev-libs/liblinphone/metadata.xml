@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="person">
+    <email>thomas.pathmann@gmail.com</email>
+    <name>Thomas Pathmann</name>
+  </maintainer>
+  <longdescription>
+    Liblinphone is a high-level SIP library integrating all calling
+    and instant messaging features into an unified easy-to-use API.
+    It is the cross-platform VoIP library on which the
+    <pkg>net-voip/linphone-desktop</pkg> application is based on,
+    and that anyone can use to add audio and video calls or instant
+    messaging capabilities to an application.
+  </longdescription>
+  <upstream>
+    <remote-id type="github">BelledonneCommunications/liblinphone</remote-id>
+  </upstream>
+  <use>
+    <flag name="tools">Build tools</flag>
+    <flag name="qrcode">add qrcode support</flag>
+  </use>
+</pkgmetadata>
