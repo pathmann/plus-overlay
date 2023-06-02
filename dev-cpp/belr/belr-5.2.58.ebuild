@@ -7,7 +7,7 @@ inherit cmake
 
 DESCRIPTION="Language recognition library by Belledonne Communications"
 HOMEPAGE="https://gitlab.linphone.org/BC/public/belr"
-SRC_URI="https://gitlab.linphone.org/BC/public/${PN}/-/archive/${PV}/${P}.tar.gz"
+SRC_URI="https://gitlab.linphone.org/BC/public/${PN}/-/archive/${PV}/${P}.tar.bz2"
 
 LICENSE="GPL-3"
 KEYWORDS="~amd64 ~x86"
