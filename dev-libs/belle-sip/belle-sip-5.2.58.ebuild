@@ -7,7 +7,7 @@ inherit cmake
 
 DESCRIPTION="SIP (RFC3261) implementation"
 HOMEPAGE="https://gitlab.linphone.org/BC/public/belle-sip"
-SRC_URI="https://gitlab.linphone.org/BC/public/${PN}/-/archive/${PV}/${P}.tar.gz"
+SRC_URI="https://gitlab.linphone.org/BC/public/${PN}/-/archive/${PV}/${P}.tar.bz2"
 
 LICENSE="GPL-3"
 KEYWORDS="~amd64 ~x86"
