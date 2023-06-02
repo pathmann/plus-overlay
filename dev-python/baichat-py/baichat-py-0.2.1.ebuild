@@ -9,15 +9,15 @@ inherit distutils-r1
 
 DESCRIPTION="Python wrapper for BAI Chat"
 HOMEPAGE="https://github.com/Bavarder/baichat-py"
-SRC_URI="https://github.com/Bavarder/${PN}/archive/refs/tags/v${PV}.tar.gz"
+SRC_URI="https://github.com/Bavarder/${PN}/archive/refs/tags/v${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~amd64"
 
 RDEPEND="
-    $(python_gen_cond_dep '
-        >=dev-python/aiohttp-3.8.4[${PYTHON_USEDEP}]
-        >=dev-python/requests-2.29.0[${PYTHON_USEDEP}]
-    ')
+	$(python_gen_cond_dep '
+		>=dev-python/aiohttp-3.8.4[${PYTHON_USEDEP}]
+		>=dev-python/requests-2.29.0[${PYTHON_USEDEP}]
+	')
 "
