@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="person">
+    <email>thomas.pathmann@gmail.com</email>
+    <name>Thomas Pathmann</name>
+  </maintainer>
+  <longdescription>
+    CodeSynthesis XSD is an open-source, cross-platform W3C XML Schema
+    to C++ data binding compiler. Provided with an XML instance
+    specification (XML Schema), it generates C++ classes that represent
+    the given vocabulary as well as XML parsing and serialization code.
+    You can then access the data stored in XML using types and functions
+    that semantically correspond to your application domain rather than
+    dealing with the intricacies of reading and writing XML.
+  </longdescription>
+</pkgmetadata>
