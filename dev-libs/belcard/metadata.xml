@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="person">
+    <email>thomas.pathmann@gmail.com</email>
+    <name>Thomas Pathmann</name>
+  </maintainer>
+  <longdescription>
+    Belcard is a C++ library to manipulate VCard standard format by
+    Belledonne Communications
+  </longdescription>
+  <upstream>
+    <remote-id type="github">BelledonneCommunications/belcard</remote-id>
+  </upstream>
+  <use>
+    <flag name="tools">Build tools</flag>
+  </use>
+</pkgmetadata>
