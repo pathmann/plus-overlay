@@ -9,7 +9,7 @@ inherit cmake python-r1
 
 DESCRIPTION="SIP library supporting voice/video calls and text messaging"
 HOMEPAGE="https://gitlab.linphone.org/BC/public/liblinphone"
-SRC_URI="https://gitlab.linphone.org/BC/public/${PN}/-/archive/${PV}/${P}.tar.gz"
+SRC_URI="https://gitlab.linphone.org/BC/public/${PN}/-/archive/${PV}/${P}.tar.bz2"
 
 LICENSE="GPL-3"
 KEYWORDS="~amd64 ~x86"
@@ -26,7 +26,7 @@ RDEPEND="dev-cpp/belr
 	dev-libs/belle-sip
 	dev-libs/jsoncpp:0=
 	dev-libs/libxml2:2
-  dev-libs/lime
+	dev-libs/lime
 	dev-libs/xerces-c
 	net-libs/bctoolbox[test?]
 	net-libs/ortp
@@ -35,7 +35,7 @@ RDEPEND="dev-cpp/belr
 	virtual/libiconv
 	virtual/libintl
 	virtual/libudev
-  qrcode? ( media-libs/zxing-cpp )
+	qrcode? ( media-libs/zxing-cpp )
 	tools? ( ${PYTHON_DEPS}
 		dev-python/pystache[${PYTHON_USEDEP}]
 		dev-python/six[${PYTHON_USEDEP}] )"
@@ -48,8 +48,10 @@ BDEPEND="${PYTHON_DEPS}
 	virtual/pkgconfig
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )"
 
-PATCHES=( "${FILESDIR}"/"${P}"-jsoncpp-cmake.patch 
-          "${FILESDIR}"/"${P}"-remove-jsoncpp_static.patch )
+PATCHES=(
+	"${FILESDIR}"/"${P}"-jsoncpp-cmake.patch
+	"${FILESDIR}"/"${P}"-remove-jsoncpp_static.patch
+)
 
 src_prepare() {
 	# QnD fix: incapability to detect jsoncpp
