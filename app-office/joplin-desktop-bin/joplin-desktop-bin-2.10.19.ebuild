@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
-inherit font gnome2-utils eutils unpacker
+inherit font unpacker
 
 DESCRIPTION="Joplin is an open source note-taking app"
 HOMEPAGE="https://joplinapp.org"
@@ -14,9 +14,9 @@ KEYWORDS="~amd64"
 
 DEPEND=""
 RDEPEND="
-  ${DEPEND}
-  sys-fs/fuse:0=
-  "
+	${DEPEND}
+	sys-fs/fuse:0=
+"
 BDEPEND=""
 
 RESTRICT="strip mirror"
