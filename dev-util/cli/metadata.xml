@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="person">
+    <email>thomas.pathmann@gmail.com</email>
+    <name>Thomas Pathmann</name>
+  </maintainer>
+  <longdescription>
+    Command Line Interface (CLI) definition language is
+    a domain-specific language (DSL) for defining command line interfaces
+    of C++ programs. It allows you to describe the options that your program
+    supports, their types, default values, and documentation.
+  </longdescription>
+</pkgmetadata>
