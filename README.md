@@ -26,6 +26,8 @@ PLuS' ebuild repository
   * dev-python/[baichat-py](https://github.com/Bavarder/baichat-py)
   * dev-python/[googlebardpy](https://github.com/Bavarder/googlebardpy)
   * dev-python/[openai](https://github.com/openai/openai-python)
+    * dev-python/[pandas-stubs](https://github.com/pandas-dev/pandas-stubs)
+    * dev-python/[types-pytz](https://github.com/python/typeshed)
 * app-misc/[boatswain](https://gitlab.gnome.org/World/boatswain)
   
 

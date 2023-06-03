@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="person">
+    <email>thomas.pathmann@gmail.com</email>
+    <name>Thomas Pathmann</name>
+  </maintainer>
+  <longdescription>
+    These are public type stubs for pandas, following the convention of
+    providing stubs in a separate package, as specified in PEP 561.
+    The stubs cover the most typical use cases of pandas. In general,
+    these stubs are narrower than what is possibly allowed by pandas,
+    but follow a convention of suggesting best recommended practices
+    for using pandas.
+  </longdescription>
+  <upstream>
+    <remote-id type="pypi">pandas-stubs</remote-id>
+    <remote-id type="github">pandas-dev/pandas-stubs</remote-id>
+  </upstream>
+</pkgmetadata>
