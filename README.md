@@ -16,6 +16,8 @@ PLuS' ebuild repository
   * dev-libs/[lime](https://gitlab.linphone.org/BC/public/lime)
   * dev-util/[cli](https://www.codesynthesis.com/projects/cli/)
   * media-libs/[mediastreamer2](https://gitlab.linphone.org/BC/public/mediastreamer2)
+	* media-libs/[bcmatroska2](https://gitlab.linphone.org/BC/public/bcmatroska2)
+	* media-libs/[bv16-floatingpoint](https://gitlab.linphone.org/BC/public/external/bv16-floatingpoint)
   * net-libs/[bctoolbox](https://gitlab.linphone.org/BC/public/bctoolbox)
   * net-libs/[bzrtp](https://gitlab.linphone.org/BC/public/bzrtp)
   * net-libs/[ortp](https://gitlab.linphone.org/BC/public/ortp)
