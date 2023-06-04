@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="person">
+    <email>thomas.pathmann@gmail.com</email>
+    <name>Thomas Pathmann</name>
+  </maintainer>
+  <longdescription>
+    Guake is a python based dropdown terminal made for the GNOME desktop
+    environment. Guake's style of window is based on an FPS game, and one
+    of its goals is to be easy to reach.
+  </longdescription>
+  <upstream>
+    <remote-id type="github">Guake/guake</remote-id>
+  </upstream>
+</pkgmetadata>
