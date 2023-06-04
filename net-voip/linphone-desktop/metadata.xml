@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="person">
+    <email>thomas.pathmann@gmail.com</email>
+    <name>Thomas Pathmann</name>
+  </maintainer>
+  <longdescription>
+    Linphone is an open source softphone for voice and video over IP calling
+    and instant messaging.
+    It is fully SIP-based, for all calling, presence and IM features.
+  </longdescription>
+  <upstream>
+    <remote-id type="github">BelledonneCommunications/linphone-desktop</remote-id>
+  </upstream>
+  <use>
+    <flag name="qrcode">Support for QR code via <pkg>media-libs/zxing-cpp</pkg></flag>
+  </use>
+</pkgmetadata>
