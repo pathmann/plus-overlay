@@ -7,7 +7,7 @@ inherit cmake
 
 DESCRIPTION="Utilities library used by Belledonne Communications softwares"
 HOMEPAGE="https://gitlab.linphone.org/BC/public/bctoolbox"
-SRC_URI="https://gitlab.linphone.org/BC/public/${PN}/-/archive/${PV}/${P}.tar.gz"
+SRC_URI="https://gitlab.linphone.org/BC/public/${PN}/-/archive/${PV}/${P}.tar.bz2"
 
 LICENSE="GPL-3"
 KEYWORDS="~amd64 ~x86"
