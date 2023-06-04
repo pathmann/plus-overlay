@@ -1,5 +1,5 @@
 # plus-overlay
-PLuS' ebuild repository
+PLuS' gentoo ebuild repository
 
 ## Ebuilds in repository
 * dev-qt/[qt-creator](https://github.com/qt-creator/qt-creator) (without dependency to LLVM/clang 14, but LLVM/clang 15 instead)
