@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="person">
+    <email>thomas.pathmann@gmail.com</email>
+    <name>Thomas Pathmann</name>
+  </maintainer>
+  <longdescription>
+    oRTP is a C library implementing the RTP protocol (rfc3550). It is
+    available for most unix clones (primilarly Linux and HP-UX), and
+    Microsoft Windows.
+  </longdescription>
+  <upstream>
+    <remote-id type="github">BelledonneCommunications/ortp</remote-id>
+  </upstream>
+  <use>
+    <flag name="ntp-timestamp">Turn on NTP timestamping on packet reception.</flag>
+  </use>
+</pkgmetadata>
