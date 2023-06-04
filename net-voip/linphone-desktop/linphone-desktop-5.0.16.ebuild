@@ -7,7 +7,7 @@ inherit cmake xdg
 
 DESCRIPTION="A free VoIP and video softphone based on the SIP protocol"
 HOMEPAGE="https://gitlab.linphone.org/BC/public/linphone-desktop"
-SRC_URI="https://gitlab.linphone.org/BC/public/${PN}/-/archive/${PV}/${P}.tar.gz"
+SRC_URI="https://gitlab.linphone.org/BC/public/${PN}/-/archive/${PV}/${P}.tar.bz2"
 
 LICENSE="GPL-3"
 KEYWORDS="~amd64 ~x86"
@@ -56,8 +56,10 @@ src_prepare() {
 		-e '/set(LINPHONE_OUTPUT_DIR/s|/linphone-sdk/desktop||' \
 		-e "/set(APPLICATION_OUTPUT_DIR/s|/OUTPUT|/bin|" \
 		-e "/ORIGIN/d" \
-		-e "\$aadd_custom_target(make-linphone ALL COMMAND \${CMAKE_COMMAND} -E make_directory \"\${CMAKE_BINARY_DIR}/share/linphone\")" \
-		-e "\$aadd_custom_target(make-sounds ALL COMMAND \${CMAKE_COMMAND} -E make_directory \"\${CMAKE_BINARY_DIR}/share/sounds/linphone\")" \
+		-e "\$aadd_custom_target(make-linphone ALL COMMAND \${CMAKE_COMMAND} \
+			-E make_directory \"\${CMAKE_BINARY_DIR}/share/linphone\")" \
+		-e "\$aadd_custom_target(make-sounds ALL COMMAND \${CMAKE_COMMAND} \
+			-E make_directory \"\${CMAKE_BINARY_DIR}/share/sounds/linphone\")" \
 		CMakeLists.txt || die "sed failed for CMakeLists.txt"
 	# Don't install qt.conf
 	sed -i "/install(FILES \"\${CMAKE_CURRENT_BINARY_DIR}\/..\/..\/qt.conf/d" \
