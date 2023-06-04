@@ -19,6 +19,7 @@ PLuS' ebuild repository
 	* media-libs/[bcmatroska2](https://gitlab.linphone.org/BC/public/bcmatroska2)
 	* media-libs/[bv16-floatingpoint](https://gitlab.linphone.org/BC/public/external/bv16-floatingpoint)
   * net-libs/[bctoolbox](https://gitlab.linphone.org/BC/public/bctoolbox)
+    * dev-util/[bcunit](https://github.com/BelledonneCommunications/bcunit)
   * net-libs/[bzrtp](https://gitlab.linphone.org/BC/public/bzrtp)
   * net-libs/[ortp](https://gitlab.linphone.org/BC/public/ortp)
 * x11-terms/[guake](https://github.com/Guake/guake)
