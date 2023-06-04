@@ -6,7 +6,7 @@ EAPI=8
 DISTUTILS_SINGLE_IMPL=1
 DISTUTILS_USE_PEP517=setuptools
 PYTHON_COMPAT=( python3_{8..11} )
-inherit distutils-r1 gnome2-utils optfeature plocale virtualx xdg
+inherit distutils-r1 gnome2-utils multibuild optfeature plocale virtualx xdg
 
 PLOCALES="ca cs de el es fa fi fr gl hr hu id it ja ko nb nl pa pl pt_BR ru sv tr uk zh_CN zh_TW"
 
@@ -20,7 +20,7 @@ S="${WORKDIR}/guake-${MY_PV}"
 
 LICENSE="GPL-2+"
 SLOT="0"
-KEYWORDS="amd64 arm ~arm64 ~ppc64 x86"
+KEYWORDS="~amd64"
 
 RDEPEND="
 	$(python_gen_cond_dep '
