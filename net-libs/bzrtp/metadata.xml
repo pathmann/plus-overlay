@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="person">
+    <email>thomas.pathmann@gmail.com</email>
+    <name>Thomas Pathmann</name>
+  </maintainer>
+  <longdescription>
+    BZRTP is an opensource implementation of ZRTP keys exchange
+    protocol(RFC6189).
+    The library is written in C and C++ is fully portable and can be
+    executed  on many platforms including both ARM  processor and x86.
+    The library extends the ZRTP protocol version 1.1 to support Post
+    Quantum Cryptography algorithms. See Post Quantum Crypto Engine
+    documentation for details.
+  </longdescription>
+  <upstream>
+    <remote-id type="github">BelledonneCommunications/bzrtp</remote-id>
+  </upstream>
+</pkgmetadata>
