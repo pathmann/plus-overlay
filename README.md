@@ -2,7 +2,7 @@
 PLuS' gentoo ebuild repository
 
 ## Ebuilds in repository
-* dev-qt/[qt-creator](https://github.com/qt-creator/qt-creator) (without dependency to LLVM/clang 14, but LLVM/clang 15 instead)
+* dev-qt/[qt-creator](https://github.com/qt-creator/qt-creator) (without dependency to LLVM/clang 14, but LLVM/clang 15 instead (8.0.2-r1) or with LLVM/clang 16 instead (8.0.2-r2) )
 * app-office/[joplin-desktop-bin](https://github.com/laurent22/joplin)
 * net-voip/[linphone-desktop](https://gitlab.linphone.org/BC/public/linphone-desktop)
   * dev-libs/[liblinphone](https://gitlab.linphone.org/BC/public/liblinphone)
