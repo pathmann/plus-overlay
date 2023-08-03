@@ -33,5 +33,6 @@ PLuS' gentoo ebuild repository
     * dev-python/[types-pytz](https://github.com/python/typeshed)
 * app-misc/[boatswain](https://gitlab.gnome.org/World/boatswain)
 * dev-qt/[qtpdf](https://doc.qt.io/qt-5/qtpdf-index.html)
+* media-gfx/[freecad](https://www.freecad.org) (0.21.0 not yet in gentoo tree)
   
 

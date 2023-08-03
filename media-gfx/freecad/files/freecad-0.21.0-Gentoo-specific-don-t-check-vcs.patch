@@ -1,0 +1,17 @@
+--- a/src/Tools/SubWCRev.py	2023-08-02 02:51:39.000000000 +0200
++++ b/src/Tools/SubWCRev.py	2023-08-03 10:51:53.384464460 +0200
+@@ -509,13 +509,7 @@
+             bindir = a
+ 
+     vcs = [
+-        GitControl(),
+-        DebianGitHub(),
+-        BazaarControl(),
+-        Subversion(),
+-        MercurialControl(),
+-        DebianChangelog(),
+-        UnknownControl(),
++        UnknownControl()
+     ]
+     for i in vcs:
+         if i.extractInfo(srcdir, bindir):
