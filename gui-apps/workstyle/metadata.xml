@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="person">
+    <email>thomas.pathmann@gmail.com</email>
+    <name>Thomas Pathmann</name>
+  </maintainer>
+  <longdescription>
+  Workspaces with style! This program will dynamically rename your workspaces
+  to indicate which programs are running in each workspace. It uses the i3 ipc
+  protocol, which makes it compatible with sway and i3. By default, each
+  program is mapped to a unicode character for concision. The short description
+  of each program is configurable. In the absence of a config file, one will be
+  generated automatically. See \${XDG_CONFIG_HOME}/workstyle/config.yml for
+  details.
+  </longdescription>
+  <upstream>
+    <remote-id type="github">pierrechevalier83/workstyle</remote-id>
+  </upstream>
+</pkgmetadata>
