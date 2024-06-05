@@ -23,7 +23,6 @@ PLuS' gentoo ebuild repository
   * net-libs/[bzrtp](https://gitlab.linphone.org/BC/public/bzrtp)
   * net-libs/[ortp](https://gitlab.linphone.org/BC/public/ortp)
 * x11-terms/[guake](https://github.com/Guake/guake)
-* app-editors/[texworks](https://github.com/TeXworks/texworks)
 * x11-misc/[synergy](https://github.com/symless/synergy-core)
 * app-misc/[bavarder](https://github.com/Bavarder/Bavarder)
   * dev-python/[baichat-py](https://github.com/Bavarder/baichat-py)
@@ -33,6 +32,3 @@ PLuS' gentoo ebuild repository
     * dev-python/[types-pytz](https://github.com/python/typeshed)
 * app-misc/[boatswain](https://gitlab.gnome.org/World/boatswain)
 * dev-qt/[qtpdf](https://doc.qt.io/qt-5/qtpdf-index.html)
-* media-gfx/[freecad](https://www.freecad.org) (0.21.0 not yet in gentoo tree)
-  
-
