@@ -2,7 +2,6 @@
 PLuS' gentoo ebuild repository
 
 ## Ebuilds in repository
-* app-office/[joplin-desktop-bin](https://github.com/laurent22/joplin)
 * net-voip/[linphone-desktop](https://gitlab.linphone.org/BC/public/linphone-desktop)
   * dev-libs/[liblinphone](https://gitlab.linphone.org/BC/public/liblinphone)
   * dev-cpp/[belr](https://gitlab.linphone.org/BC/public/belr)
@@ -23,11 +22,5 @@ PLuS' gentoo ebuild repository
   * net-libs/[ortp](https://gitlab.linphone.org/BC/public/ortp)
 * x11-terms/[guake](https://github.com/Guake/guake)
 * x11-misc/[synergy](https://github.com/symless/synergy-core)
-* app-misc/[bavarder](https://github.com/Bavarder/Bavarder)
-  * dev-python/[baichat-py](https://github.com/Bavarder/baichat-py)
-  * dev-python/[googlebardpy](https://github.com/Bavarder/googlebardpy)
-  * dev-python/[openai](https://github.com/openai/openai-python)
-    * dev-python/[pandas-stubs](https://github.com/pandas-dev/pandas-stubs)
-    * dev-python/[types-pytz](https://github.com/python/typeshed)
 * app-misc/[boatswain](https://gitlab.gnome.org/World/boatswain)
 * dev-qt/[qtpdf](https://doc.qt.io/qt-5/qtpdf-index.html)
